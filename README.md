@@ -3,6 +3,8 @@ This is the source code repository for the ModerNet Website. Learn more at http:
 
 ## Contributors
 
+### Get the Code!
+
 ModerNet is cross-platform friendly.
 
 1. [Install Git](https://git-scm.com/)
@@ -25,3 +27,13 @@ __Enabling SSL Verification__
 
     git config --global http.sslVerify true
     npm config set strict-ssl true
+    
+### Shared IDE experience (editor)?
+
+We are using the new, free, cross-platform preview of ["Visual Studio Code"](https://code.visualstudio.com/). There are a number of attractive features and [planned features](http://visualstudio.uservoice.com/forums/293070-visual-studio-code). We are especially interested in NodeJS support, rich intelli-sense, integrated debugging, and sharing common editor settings.
+
+1. Download [Code](https://code.visualstudio.com/)
+2. Open the "modernet-website" project directory: `File -> Open folder...`
+3. Switch to Debug (`Ctrl+Shift+D`)
+4. Ensure "Run" is selected from the drop-down
+5. Press `F5` to start the web server and run the website.
